@@ -15,3 +15,9 @@
 
             <Heading> Nuestros Productos </Heading>
         )
+
+# Por que crear tus propios hooks
+
+    - codigo reutilizable en otros lugares de tu app
+    - se pueden crear funciones helper, pero la ventaja de los hooks es que puedes incorporar State y mantener el valor de una funcion de forma persistente
+    -Tu codigo tendra las ventajas de React 
