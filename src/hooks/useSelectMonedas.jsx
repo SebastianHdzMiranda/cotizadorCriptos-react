@@ -20,7 +20,7 @@ function useSelectMonedas(label, opciones) {
 
     const [state, setState] = useState('');
 
-    // Returna un componente de React '()'
+    // Returna un componente de React
     const SelectMonedas = () => (
         <div>
             <Label>{label}</Label>
