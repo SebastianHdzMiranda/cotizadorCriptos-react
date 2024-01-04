@@ -21,7 +21,7 @@ const InputSubmit = styled.input`
     }
 `;
 
-function Formulario() {
+function Formulario({setConsulta}) {
 
     const [criptomonedas, setCriptomonedas] = useState([]);
     const [alerta, setAlerta] = useState(false);
@@ -77,7 +77,7 @@ function Formulario() {
             return; 
         }
         setAlerta(false);
-        console.log('Mostrar Informacion');
+        setConsulta({moneda, cripto});
     }
 
     return (
